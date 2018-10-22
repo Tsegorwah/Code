@@ -1,0 +1,427 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-9-29, 16:51:32
+    Author     : yyznb
+*/
+#select{
+    height:80px;
+    width:100%;
+    float:left;
+    margin-top: 20px;
+}
+#luntan{
+    height:800px;
+    width:100%;
+    float:left;
+}
+
+#lt{
+    height:800px;
+    width:100%;
+}
+#rt{
+    height:120px;
+    width:100%;
+}
+#head{
+    width:100%;
+    height:180px;
+    background: linear-gradient(whitesmoke,lightskyblue); 
+    float:left;
+    color: white;
+    margin-bottom: 10px;
+}
+#logo{
+    float:left;
+    width:419px;
+    height:180px;
+    background-image: url("../image/logo.png");
+    margin-left:320px;
+}
+#name{
+    float:left;
+    width:350px;
+    height:114px;
+    font-size: 40px;
+    text-align: center;
+    padding-top:66px;
+    font-family: SimSun;
+}
+#reg{
+    float:right;
+     height:120px;
+     width:50px;
+     text-align: center;
+     padding-top: 60px;
+     color:black;
+     font-family:SimSun;
+     position: relative;
+    z-index: 10;
+}
+#login{
+    float:right;
+     height:120px;
+     width:50px;
+     text-align: center;
+     padding-top: 60px;
+     color:black;
+     font-family:SimSun;
+     position: relative;
+    z-index: 10;
+}
+#tail{
+    float:left;
+    height:98px;
+    width:100%;
+    position:relative;
+    background: linear-gradient(whitesmoke,lightskyblue); 
+    margin-top: 10px;
+}
+
+.tail-about:hover{
+    cursor: pointer;
+}
+body{
+    overflow-x:hidden;
+    position: relative;
+    background-color:whitesmoke;
+}
+#login:hover{
+    cursor: pointer;
+    background: linear-gradient(black,grey,ghostwhite);
+    color: whitesmoke;
+}
+#reg:hover{
+     cursor: pointer;
+    background: linear-gradient(black,grey,ghostwhite);
+    color: whitesmoke;
+}
+#logw{
+    width:696px;
+    height:444px;
+    margin:auto;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom: 0px;
+    position: fixed;
+}
+#logw-1{
+    width:696px;
+    height:150px;
+    background-image: url("../image/logimg.png");
+}
+#logw-1-2{
+    width:696px;
+    height:150px;
+    background-image: url("../image/logimg.png");
+}
+#logw-2{
+    width:696px;
+    height:294px;
+    background-image: url("../image/logimg-2.png");
+}
+#logw-3{
+    width:696px;
+    height:379px;
+    background-image: url("../image/logimg-2.png");
+}
+.close{
+    width:43px;
+    height:43px;
+    position: relative;
+    float: right;
+    background-image: url("../image/close.png");
+}
+.close:hover{
+    cursor: pointer;
+}
+.wintext{
+    width:605px;
+    height:60px;
+   margin-top:25px;
+   margin-left:35px;
+   line-height: 26px;
+   font-size: 26px;
+   border-radius: 15px;
+   padding-left: 25px;
+   border:2px solid grey;
+   outline:none;
+}
+.winbt{
+    width:630px;
+    height:60px;
+    background-color: green;
+    color:white;
+    font-size: 26px;
+    margin-top:25px;
+    margin-left:35px;
+    border-radius:15px;
+    outline:none;
+}
+#regw{
+    width:696px;
+    height:529px;
+    margin:auto;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom: 0px;
+    position: fixed;
+}
+#mapbox{
+    width:100%;
+    float:left;
+    height:800px;
+}
+#map{
+    margin:auto;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom: 0px;
+    position: fixed;
+    width:1200px;
+    float:left;
+    height:623px;
+    overflow:auto;
+    border:1px solid black;
+    z-index: 2;
+}
+.mapbt{
+    background:#008CBA;
+    border:none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left:2px;
+}
+.mapbt:hover{
+    cursor: pointer;
+    background-color:green;
+}
+#container {
+width:100%;
+height: 580px;
+float: left;
+z-index:-1;
+position: relative;
+}
+#container:hover{
+z-index:999;
+}
+.button-group {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	font-size: 12px;
+	padding: 10px;
+}
+.button-group .button {
+	height: 28px;
+	line-height: 28px;
+	background-color: #0D9BF2;
+	color: #FFF;
+	border: 0;
+	outline: none;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 3px;
+	margin-bottom: 4px;
+	cursor: pointer;
+}
+.button-group .inputtext {
+	height: 26px;
+	line-height: 26px;
+	border: 1px;
+	outline: none;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 3px;
+	margin-bottom: 4px;
+	cursor: pointer;
+}
+#tip {
+	background-color: #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	font-size: 12px;
+	right: 10px;
+	top: 20px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	line-height: 30px;
+}
+.amap-info-content {
+	font-size: 12px;
+}
+#myPageTop {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #ccc;
+	margin: 10px auto;
+	padding:6px;
+	font-family: "Microsoft Yahei", "微软雅黑", "Pinghei";
+	font-size: 14px;
+}
+#myPageTop label {
+	margin: 0 20px 0 0;
+	color: #666666;
+	font-weight: normal;
+}
+#myPageTop input {
+	width: 170px;
+}
+#myPageTop .column2{
+	padding-left: 25px;
+}
+#top{
+    width:100%;
+    height:43px;
+    float:right;
+    background-color: white;
+    z-index: 1000;
+}
+table.hovertable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+        font-size: 16px;
+}
+table.hovertable th {
+	background-color:#c3dde0;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+        font-size: 16px;
+}
+table.hovertable tr {
+	background-color:#d4e3e5;
+        font-size: 16px;
+}
+table.hovertable td {
+	border-width: 0.1px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+        font-size: 16px;       
+}
+.yellow:hover{
+    background-color:powderblue;
+    cursor: pointer;
+}
+table{
+    width:100%;
+    height:100%;
+}
+.ltbt{
+    border:none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left:8px;
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    border:2px solid #0D9BF2;
+    background-repeat:no-repeat;  
+}
+.ltbt:hover{
+    cursor: pointer;
+}
+.ltbt:nth-child(1){
+    background-image:url("../image/notepad.png");
+}
+.ltbt:nth-child(2){
+    background-image:url("../image/map.png");
+}
+.ltbt:nth-child(3){
+    background-image:url("../image/user.png");
+}
+.ltbt:nth-child(4){
+    background-image:url("../image/spanner.png");
+}
+.ltbt:nth-child(5){
+    background-image:url("../image/medal-gold.png");
+}
+#fanhui{
+    border:none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left:8px;
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    border:2px solid #0D9BF2;
+    background-repeat:no-repeat;
+    background-image:url("../image/home.png");
+}
+#fanhui:hover{
+    cursor: pointer;
+}
+.ui-tooltip {
+	padding: 8px;
+	position: absolute;
+	z-index: 9999;
+	max-width: 300px;
+	-webkit-box-shadow: 0 0 5px #aaa;
+	box-shadow: 0 0 5px #aaa;
+        background-color:lightskyblue;
+}
+body .ui-tooltip {
+	border-width: 2px;
+}
+.STYLE1{
+    font-weight: bold;
+}
+#loading{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: linear-gradient(whitesmoke,lightskyblue);
+    z-index: 1000;
+    text-align:center;
+    padding-top: 300px;
+    font-size: 40px;
+}
+.city{
+    width:100px;
+    height:40px;
+    text-align: center;
+    background-color:#0099CC;
+    font-size: 20px;
+    line-height: 40px;
+    position: relative;
+    top:25px;
+    left: 690px;
+    color: white;
+    z-index: 1;
+}
+#noborder{
+    border-right-width: 0.1px;
+    border-left-width: 0.1px;
+    border-bottom-width:3px;
+}
+
+
+
